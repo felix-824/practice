@@ -5,7 +5,7 @@
 (4) Scope
 """
 
-print("===DEFINE vs CALL ====")
+print("===DEFINE vs CALL (arguments)====")
 # build in function > print() type()
 # Function - reusable block of code! malum bir mantiqni ishga tushirib beradigan kod blok
 # Instead of block {} in JAVA, Python uses indentation!
@@ -27,3 +27,16 @@ print("result1:", result1)
 
 result2 = greeting("Jastin")
 print("result2:", result2)
+
+print("=== Keyword & default arguments ====")
+# DEFINE
+def give_greet(name, age=22):
+    print("give_greet is executed")
+    return f"Hi {name}, you are {age} year old!"
+
+#CALL
+result3 = give_greet(name="Justin", age=28)
+print("result3:", result3)
+
+result4 = give_greet("John")
+print("result4:", result4)
