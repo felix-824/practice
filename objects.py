@@ -32,7 +32,7 @@ try:
     print("passed here")
     result = car_dict["origin"]
     print("result:", result)
-except KeyError as err:
+except Exception as err:
     print("No origin state property found:", err)
 else:
     print("Executed  successfully without errors")
