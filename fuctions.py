@@ -29,12 +29,15 @@ result2 = greeting("Jastin")
 print("result2:", result2)
 
 print("=== Keyword & default arguments ====")
+
+
 # DEFINE
 def give_greet(name, age=22):
     print("give_greet is executed")
     return f"Hi {name}, you are {age} year old!"
 
-#CALL
+
+# CALL
 result3 = give_greet(name="Justin", age=28)
 print("result3:", result3)
 
@@ -43,13 +46,15 @@ print("result4:", result4)
 
 
 print("==== Scope  ====")
-b = 100 #3
+b = 100  # 3
 
 
-#DEFINE
-def calculate(a): #2
-    c = a * b #1
+# DEFINE
+def calculate(a):  # 2
+    c = a * b  # 1
     print(f"the c value: {c}")
-    
-    #CALL
+
+    # CALL
+
+
 calculate(5)
