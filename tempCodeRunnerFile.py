@@ -1,3 +1,2 @@
-  # def __new__(cls):
-    #     print("*__new__*args")
-    #     return super().__new__(cls)
+def make_voice(self):
+        print(f"the {self.name} says {self.sound}")   
