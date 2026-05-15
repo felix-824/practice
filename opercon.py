@@ -1,8 +1,8 @@
-''' OPERATORS & CONDITIONS
-     (1)Operators
-     (2) Condition
-     (3) Logical Operators
-'''
+"""OPERATORS & CONDITIONS
+(1)Operators
+(2) Condition
+(3) Logical Operators
+"""
 
 print("==== Operators")
 # + - > >= < <= * /  // % += **
@@ -23,7 +23,7 @@ print("a:", a)
 print("b**2", b**2)
 print("b**3", b**3)
 
-print("="*5)
+print("=" * 5)
 
 c = dict(name="Martin", age=35)
 d = dict(name="Martin", age=35)
@@ -46,21 +46,21 @@ elif x > 10:
     print("Case B")
 else:
     print("Case C")
-    
+
     print("----")
-    
-    
-print("===== Logical Operators ====")    
+
+
+print("===== Logical Operators ====")
 age = 21
 # person = None
-    
+
 # if age > 16:
 #     person = "adult"
 # else:
 #     person = "child"
 
 # Ternary
-person = "adult" if age > 18 else "minor"        
+person = "adult" if age > 18 else "minor"
 print("person:", person)
 
 
