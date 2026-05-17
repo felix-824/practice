@@ -20,7 +20,7 @@ print(numbers is list_numbers)
 print(id(numbers), id(list_numbers))
 
 print("--------")
-people = [("Robert", 20), ("Steve", 19), ("Joseph", 25)]
+people = [("Robert", 21), ("Steve", 19), ("Joseph", 25)]
 list_people = [person[0] for person in people] # b version
 print("list_people:", list_people)
 
@@ -34,3 +34,14 @@ cars = [
 ]
 list_cars = [cars[0] for car in cars if car [1] > 80] # c version
 print("list_cars:", list_cars)    
+
+print("====  set and dictionary comprehension =====")
+numbs = [1, 5, 4, 20, 1, 20, 1, 4]
+set_numbs = {*numbs}
+print("set_numbs:", set_numbs)
+
+dict_people = {person[0]: person[1] for person in people} # b version
+print("dic_people:", dict_people)
+
+dict_people2 = {person[0]: person[1] for person in people if person[1] > 20 } # c version
+print("dic_people2:", dict_people2)
