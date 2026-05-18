@@ -3,7 +3,7 @@
    (2) Package Manager & Extrinal Package
    (3) Debugging
 '''
-
+from PIL import Image
 import turtle
 print("==== Python Packages & Core Package ====")
 ''' Python Packages/Modules: Core, File and External '''
@@ -29,3 +29,14 @@ with open("material/message.txt", "r") as your_file:
     print("your_content:", your_content)
     
 print("DONE")        
+
+
+
+print("==== Package Manager & Extrinal Package ====")
+''' Package Managers: pip pipenv bpm yarn composer brew'''
+# External Package > https://pypi.org/
+
+with Image.open("material/Fujifilm.png") as img_obj:
+    reversed_img = img_obj.resize((200, 200))
+    reversed_img.show()
+    reversed_img.save("material/sample.png")
