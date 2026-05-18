@@ -32,3 +32,16 @@ git pull origin master
 - Array
 - Comprehesion
 - Debugging
+
+## Pip commands
+
+''' 
+   windows pip | macos pip#
+
+   pip list
+   pip install pillow
+   pip uninstall pillow
+   pip show pillow
+   pip freeze > requirements.txt
+   
+'''
