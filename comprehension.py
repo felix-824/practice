@@ -20,7 +20,7 @@ print(numbers is list_numbers)
 print(id(numbers), id(list_numbers))
 
 print("--------")
-people = [("Robert", 21), ("Steve", 19), ("Joseph", 25)]
+people = [("Robert", 21 ), ("Steve", 19), ("Joseph", 25)]
 list_people = [person[0] for person in people] # b version
 print("list_people:", list_people)
 
